@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { BASE_URL } from './constants/index'
-import { API_KEY } from './../.env'
+import { BASE_URL, API_KEY } from './constants/index'
 import WeatherSummary from './components/WeatherSummary.vue';
 import Highlight from './components/Highlight.vue';
 import Humidity from './components/Humidity.vue';
